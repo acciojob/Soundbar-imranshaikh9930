@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+section{
+	height:100vh;
+	background:violet;
+}
+.container{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	height:100vh;
+	padding:1rem;
+
+	
+}
+.container button{
+	padding:15px 30px;
+	border-radius:10px;
+	cursor:pointer;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.stop {
+    background-color: #dc3545;
+}
+
+audio {
+    display: none;
+}
